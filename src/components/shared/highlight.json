@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "description": "Bloco de destaque para notícias ou eventos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["Evento", "Notícia"]
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["calendar", "file-text", "users", "map-pin", "arrow-right"]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": ["bg-blue-500", "bg-green-500", "bg-purple-500", "bg-orange-500"]
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
